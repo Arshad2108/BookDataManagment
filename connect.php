@@ -10,7 +10,7 @@
 	$date = $_GET['date'];
 	$month = $_GET['month'];
 	$year = $_GET['year'];
-	echo "yay...";
+	
 	
 
 	// Database connection
@@ -22,8 +22,8 @@
 		if ($stmt = $conn->prepare("INSERT INTO `booksdata`(`bookname`, `authorname`, `date`, `Month`, `Year`) VALUES (?,?,?,?,?)")){
 		$stmt->bind_param("ssiii", $bookname, $authorname, $date, $month, $year);
 		$execval = $stmt->execute();
-		echo $execval;
-		echo "Registration successfully...";
+		
+		echo "<b>Book Added Successfully...</b>";
 		$stmt->close();
 		$conn->close();
 	}
