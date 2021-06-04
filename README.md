@@ -2,7 +2,7 @@
 
 ## Insert a book
 
-In this method, on onclick of button, it runs a javaScript function **mySubmit()** , which first validates the data filled, that is checks if any of the info is left blank, if left blank raises an alert else goes to **connect.php** and insert the new data in the database, here **books** with table **booksdata**.
+In this method, on onclick of button, it runs a javaScript function **mySubmit()** , which first validates the data filled, that is checks if any of the info is left blank, if left blank raises an alert else goes to **connect.php** and insert the new data in the database, here **books** with table **booksdata**, and shows the data entered in the page also.
 
 ## View the Database
 
