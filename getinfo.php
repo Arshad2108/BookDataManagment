@@ -60,7 +60,7 @@ if (isset($_GET["interval"])){
 
 if ($results = mysqli_query($con,$sql)){
 
-echo "<table>
+echo "<table >
 <tr>
 <th>S. No.</th>
 <th>BookName</th>
